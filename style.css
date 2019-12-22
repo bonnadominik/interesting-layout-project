@@ -47,19 +47,28 @@ header{
     line-height: 30px;
 }
 
-.card{
+.about-card{
   box-sizing: border-box;
   padding: 0 20px 0;
   width: calc(100% - 20px);
   background-size: cover;
 }
 
-.card-text{
+.about-card-text{
   padding: 10px;
   text-align: center;
 }
 
-.card-image{
+.about-card-image{
   width: calc(100% - 20px);
   background-attachment: fixed;
+}
+
+.visually-hidden{ 
+    /*visually hidden class created for correct headings arrangement */
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
