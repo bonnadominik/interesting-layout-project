@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Source+Sans+Pro:400,700&display=swap&subset=latin-ext');
 
 :root{
-    --main-color: #fff;
     --darker-green: #3bb375;
     --lighter-green: #37b575;
 }
@@ -13,10 +12,11 @@
 
 body{
     font-family: 'Roboto', Arial;
+    background-color: #f4f8f7;
 }
 
 header{
-    background-color: var(--main-color);
+    background-color: #fff;
     font-family: 'Source Sans Pro', Arial;
     width: 100%;
     position: fixed;
@@ -51,6 +51,7 @@ header{
 
 .menu a:hover{
     background-color: var(--darker-green);
+    color: var(--main-color);
 }
 
 .menu-btn{
@@ -93,25 +94,51 @@ header{
     font-style: normal;
     color: #fff;
 }
+
+.hero-title{
+    font-size: 50px;
+    line-height: 60px;
+}
+
 .hero-subtitle{
+    font-size: 25px;
     line-height: 30px;
 }
 
 .about-card{
-  box-sizing: border-box;
-  padding: 0 20px 0;
-  width: calc(100% - 20px);
-  background-size: cover;
+    background-color: var(--lighter-green);
+    box-sizing: border-box;
+    width: calc(100% - 80px);
+    height: 40vh;
+    margin: auto;
+    margin-bottom: 130px;
+}
+
+.about ul li{
+    list-style: none;
 }
 
 .about-card-text{
-  padding: 10px;
-  text-align: center;
+    box-sizing: border-box;
+    color: #fff;
+    padding: 45px;
+    height: 65%;
+    width: 100%;
+}
+
+.about-card-text h4{
+    font-size: 23px;
 }
 
 .about-card-image{
-  width: calc(100% - 20px);
-  background-attachment: fixed;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+}
+
+.about:nth-child(1){
+    position: relative;
+    top: -250px;
 }
 
 .visually-hidden{ 
