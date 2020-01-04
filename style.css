@@ -105,6 +105,11 @@ header{
     line-height: 30px;
 }
 
+.about{
+    position: relative;
+    top: -250px;
+}
+
 .about-card{
     background-color: var(--lighter-green);
     box-sizing: border-box;
@@ -136,11 +141,6 @@ header{
     width: 100%;
 }
 
-.about:nth-child(1){
-    position: relative;
-    top: -250px;
-}
-
 .visually-hidden{ 
     /*visually hidden class created for correct headings arrangement */
     position: absolute;
@@ -150,11 +150,16 @@ header{
     overflow: hidden;
 }
 
-.offer-title .offer-subtitle{
+/* .offer-title .offer-subtitle{
     font-family: 'Source Sans Pro', Arial;
+} */
+
+.offer{
+    width: 100%;
 }
 
 .offer-title{
+    font-size: 20px;
     color: #3b4851;
 }
 
@@ -166,29 +171,47 @@ header{
     box-sizing: border-box;
     width: 80%;
     margin: auto;
+    margin-bottom: 20px;
     padding: 20px 40px;
     list-style: none;
-}
-
-.offer-card a{
-    text-decoration: none;
+    text-align: center;
 }
 
 .offer-card-pictogram{
     box-sizing: border-box;
     margin: auto;
-    padding: 20px;
+    margin-bottom: 40px;
+    padding: 37px;
     text-align: center;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-color: #39464f;
     color: #fff;
-    font-size: 60px;
+    font-size: 75px;
+}
+
+.offer-card-text h4{
+    font-size: 24px;
+    color: #39464f;
+    margin-bottom: 8px;
 }
 
 .offer-card-text{
-    text-align: center;
+    font-size: 17px;
+    margin-bottom: 40px;
+    color: #9f9f9f;
+}
+
+.card-btn{
+    text-decoration: none;
+    color: #39464f;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.card-btn .icon-play{
+    color: #79868e;
 }
 
 footer{
