@@ -149,8 +149,46 @@ header{
     height: 1px;
     overflow: hidden;
 }
+
 .offer-title .offer-subtitle{
     font-family: 'Source Sans Pro', Arial;
+}
+
+.offer-title{
+    color: #3b4851;
+}
+
+.offer-subtitle{
+    color: #61707a;
+}
+
+.offer-card{
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    padding: 20px 40px;
+    list-style: none;
+}
+
+.offer-card a{
+    text-decoration: none;
+}
+
+.offer-card-pictogram{
+    box-sizing: border-box;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #39464f;
+    color: #fff;
+    font-size: 60px;
+}
+
+.offer-card-text{
+    text-align: center;
 }
 
 footer{
