@@ -210,12 +210,68 @@ header{
     font-size: 17px;
 }
 
-.card-btn .icon-play{
-    color: #79868e;
+.card-btn:hover{
+    color: var(--darker-green);
+}
+
+.articles{
+    background-color: #fff;
+    margin-top: 40px;   
+}
+
+.articles h3{
+    color: #39464f;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.article-card{
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+.article-card-image{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.article-card-text h4{
+    color: var(--lighter-green);
+    line-height: 30px;
+}
+
+.article-card-text{
+    color: #9f9f9f;
+    margin-bottom: 40px;
+}
+
+.article-card-btn{
+    border-radius: 5px;
+    background-color: black;
+    padding: 7px 24px 10px 24px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
 }
 
 footer{
+    /* flex-direction: column; */
     font-family: 'Source Sans Pro', Arial;
+    background-color: #3b4453;
+    color: #fff;
+}
+
+footer ul li{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }
 
 .card-btn{
