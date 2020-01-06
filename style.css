@@ -111,9 +111,9 @@ header{
 }
 
 .about-card{
-    background-color: var(--lighter-green);
     box-sizing: border-box;
     width: calc(100% - 80px);
+    background-color: var(--lighter-green);
     height: 40vh;
     margin: auto;
     margin-bottom: 10vh;
@@ -121,10 +121,6 @@ header{
 
 .about ul li{
     list-style: none;
-}
-
-.about-card figure{
-    max-height: 50%;
 }
 
 .about-card-text{
@@ -143,6 +139,7 @@ header{
     box-sizing: border-box;
     height: auto;
     width: 100%;
+    max-height: 20%;
 }
 
 .visually-hidden{ 
@@ -288,6 +285,15 @@ footer ul{
     flex-direction: row;
     list-style: none;
     justify-content: center;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer ul li a:hover{
+    color: var(--darker-green);
 }
 
 .social-pictogram{
