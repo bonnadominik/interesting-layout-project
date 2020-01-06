@@ -107,29 +107,48 @@ header{
 
 .about{
     position: relative;
-    top: -225px;
+    top: -223px;
 }
 
 .about-card{
     list-style: none;
     position: relative;
     width: calc(100% - 80px);
-    height: 50vh;
+    height: 45vh;
     margin: 20px auto 40px;
     background-color: var(--darker-green);
 }
 
 .about-card-text{
+    box-sizing: border-box;
+    color: #fff;
     height: 50%;
+    padding: 40px;
+    font-size: 14px;
+}
+
+.about-card h4{
+    font-size: 22px;
+    margin-bottom: 20px;
 }
 
 .about-card figure{
     height: 50%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
-.about-card-image{
-    width: 100%;
-    height: auto;
+.woman-img{
+    background-image: url(images/woman.jpg);
+}
+
+.hands-img{
+    background-image: url(images/hands.jpg);
+}
+
+.globe-img{
+    background-image: url(images/globe.jpg);
 }
 
 .visually-hidden{ 
@@ -147,6 +166,7 @@ font-family: 'Source Sans Pro', Arial;
 
 .offer{
     box-sizing: border-box;
+    margin-top: -140px;
     padding: 15px;
     width: 100%;
     text-align: center;
@@ -212,7 +232,8 @@ font-family: 'Source Sans Pro', Arial;
 
 .articles{
     background-color: #fff;
-    margin-top: 40px;   
+    margin-top: 50px; 
+    padding-top: 40px;  
 }
 
 .articles-title{
