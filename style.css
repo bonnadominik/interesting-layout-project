@@ -51,7 +51,7 @@ header{
 
 .menu a:hover{
     background-color: var(--darker-green);
-    color: var(--main-color);
+    color: #fff;
 }
 
 .menu-btn{
@@ -107,7 +107,7 @@ header{
 
 .about{
     position: relative;
-    top: -250px;
+    top: -234px;
 }
 
 .about-card{
@@ -116,18 +116,22 @@ header{
     width: calc(100% - 80px);
     height: 40vh;
     margin: auto;
-    margin-bottom: 130px;
+    margin-bottom: 10vh;
 }
 
 .about ul li{
     list-style: none;
 }
 
+.about-card figure{
+    max-height: 50%;
+}
+
 .about-card-text{
     box-sizing: border-box;
     color: #fff;
     padding: 45px;
-    height: 65%;
+    height: 50%;
     width: 100%;
 }
 
@@ -150,21 +154,26 @@ header{
     overflow: hidden;
 }
 
-/* .offer-title .offer-subtitle{
-    font-family: 'Source Sans Pro', Arial;
-} */
+.offer-title , .offer-subtitle{
+font-family: 'Source Sans Pro', Arial;
+} 
 
 .offer{
+    box-sizing: border-box;
+    padding: 15px;
     width: 100%;
+    text-align: center;
 }
 
 .offer-title{
-    font-size: 20px;
+    font-size: 33px;
     color: #3b4851;
 }
 
 .offer-subtitle{
+    font-size: 22px;
     color: #61707a;
+    margin-bottom: 40px;
 }
 
 .offer-card{
@@ -174,7 +183,6 @@ header{
     margin-bottom: 20px;
     padding: 20px 40px;
     list-style: none;
-    text-align: center;
 }
 
 .offer-card-pictogram{
@@ -204,6 +212,7 @@ header{
 }
 
 .card-btn{
+    font-family: 'Source Sans Pro', Arial;
     text-decoration: none;
     color: #39464f;
     font-weight: bold;
@@ -219,7 +228,8 @@ header{
     margin-top: 40px;   
 }
 
-.articles h3{
+.articles-title{
+    font-size: 22px;
     color: #39464f;
     text-align: center;
     margin-bottom: 20px;
@@ -259,21 +269,43 @@ header{
     text-transform: uppercase;
 }
 
+.article-card-btn:hover{
+    background-color: #39464f;
+    color: var(--lighter-green);
+}
+
 footer{
-    /* flex-direction: column; */
     font-family: 'Source Sans Pro', Arial;
-    background-color: #3b4453;
+    text-align: center;
+    background-color: #3d484d;
     color: #fff;
+    margin-top: 130px;
+    padding: 50px 0 100px;
 }
 
-footer ul li{
+footer ul{
     display: flex;
-    justify-content: center;
     flex-direction: row;
-    justify-content: space-evenly;
-
+    list-style: none;
+    justify-content: center;
 }
 
-.card-btn{
-    font-family: 'Source Sans Pro', Arial;
+.social-pictogram{
+    font-size: 17px;
+    margin-right: 15px;
+}
+
+footer h3{
+    margin-right: 15px;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+footer h4{
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+footer h4 span{
+    font-size: 10px;
 }
