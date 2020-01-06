@@ -421,6 +421,11 @@ footer h4 span{
     .show-tablet{
         display: block;
     }
+
+    .partner-logo{
+        color: #000;
+        font-size: 40px;
+    }
 }
 
 
