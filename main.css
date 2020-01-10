@@ -541,7 +541,55 @@ footer h4 span{
 
 
 @media screen and (min-width: 980px){
+    .show-desktop{
+        display: block;
+    }
 
+    .logo{
+        height: 100px;
+        padding-left: 20px;
+        padding-right: 100px;
+    }
+    
+    .icon-menu-button{
+        display:none;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        clear: none;
+        padding-right: 50px;
+    }
+    
+    .menu li a{
+        font-size: 1.5vw;
+        padding: 45px 15px 15px;
+    }
+
+    .hero-title{
+        font-size: 1.65em;
+    }
+
+    .about{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .about-card:nth-child(1){
+        grid-column: 1 / 2;
+        grid-row: auto;
+    }
+
+    .about-card:nth-child(2){
+        grid-column: 2 / 3;
+        grid-row: auto;
+    }
+
+    .about-card:nth-child(3){
+        grid-column: 3 / 4;
+        grid-row: auto;
+    }
 }
 
 @media screen and (min-width: 1280px){
