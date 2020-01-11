@@ -111,13 +111,11 @@ header{
 }
 
 .about{
-    position: relative;
-    top: -25.5vh;
+    transform: translateY(-17.4%);
 }
 
 .about-card{
     list-style: none;
-    position: relative;
     width: calc(100% - 80px);
     height: 45vh;
     margin: 20px auto 40px;
@@ -346,7 +344,7 @@ footer h4 span{
     }
     
     .about{
-        top: -33vh;
+        transform: translateY(-17.2%);
     }
     
     .about-card{
@@ -423,7 +421,7 @@ footer h4 span{
     }
 
     .about{
-        top: -28.1vh;
+        transform: translateY(-28%);
         margin: 0 50px 0 50px;
         height: 100vh;
     }
@@ -585,21 +583,6 @@ footer h4 span{
         justify-content: space-between;
     }
 
-    /* .about-card:nth-child(1){
-        grid-column: 1 / 2;
-        grid-row: auto;
-    }
-
-    .about-card:nth-child(2){
-        grid-column: 2 / 3;
-        grid-row: auto;
-    }
-
-    .about-card:nth-child(3){
-        grid-column: 3 / 4;
-        grid-row: auto;
-    } */
-
     .offer-title{
         font-size: 1.85em;
     }
@@ -665,6 +648,7 @@ footer h4 span{
 
     .company-info{
         padding: 0 60px 100px;
+        position: relative;
     }
 
     .company-info ul li{
@@ -711,6 +695,11 @@ footer h4 span{
         margin-right: 12px;
         color: var(--lighter-green);
         content: "\e901";
+    }
+
+    .company-info .card-btn{
+        position: absolute;
+        bottom: 15%;
     }
 
     .partners{
