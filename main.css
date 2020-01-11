@@ -275,9 +275,9 @@ font-family: 'Source Sans Pro', Arial;
 .article-card-btn{
     border-radius: 5px;
     background-color: black;
-    padding: 7px 24px 10px 24px;
     text-decoration: none;
     color: #fff;
+    padding: 7px 24px 10px 24px;
     font-size: 12px;
     text-transform: uppercase;
 }
@@ -563,7 +563,7 @@ footer h4 span{
     }
     
     .menu li a{
-        font-size: 1.5vw;
+        font-size: 1rem;
         padding: 45px 15px 15px;
     }
 
@@ -572,11 +572,15 @@ footer h4 span{
     }
 
     .about{
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
+        padding: 0 5rem;
     }
 
-    .about-card:nth-child(1){
+    .about ul{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* .about-card:nth-child(1){
         grid-column: 1 / 2;
         grid-row: auto;
     }
@@ -589,7 +593,70 @@ footer h4 span{
     .about-card:nth-child(3){
         grid-column: 3 / 4;
         grid-row: auto;
+    } */
+
+    .offer-title{
+        font-size: 1.85em;
     }
+
+    .offer-subtitle{
+        font-size: 1.3em;
+    }
+
+    .offer ul{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .offer-card{
+        padding: 0 25px;
+    }
+
+    .offer-card-pictogram{
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+        padding: 25px;
+    }
+
+    .offer-card-text h4{
+        font-size: 1.3em;
+    }
+
+    .offer-card-text{
+        font-size: .9em;
+    }
+
+    .card-btn{
+        font-size: 1em;
+    }
+
+    .articles{
+        padding: 0 45px 50px;
+    }
+
+    .articles ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .article-card-text h4{
+        font-size: 1.1em;
+    }
+
+    .article-card-text{
+        font-size: .9em;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+    .article-card-btn{
+        float: left;
+        padding: 7px 24px 10px 24px;
+        font-size: 12px;
+    }
+
 }
 
 @media screen and (min-width: 1280px){
