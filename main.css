@@ -559,14 +559,15 @@ footer h4 span{
     }
 
     .menu{
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
         clear: none;
+        grid-gap: 1px;
         padding-right: 50px;
     }
     
     .menu li a{
-        font-size: 1rem;
+        font-size: .9rem;
         padding: 45px 15px 15px;
     }
 
