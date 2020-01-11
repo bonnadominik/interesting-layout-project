@@ -485,7 +485,8 @@ footer h4 span{
 
     .articles{
         padding: 0 20px 0 20px;
-        padding-bottom: 100px;
+        padding-bottom: 250px;
+        margin-bottom: 0;
     }
 
     .articles ul{
@@ -532,6 +533,10 @@ footer h4 span{
         list-style: none;
         color: #b3b3b3;
         font-size: 4.5vw;
+    }
+
+    footer{
+        margin-top: 0;
     }
 
 }
@@ -615,8 +620,8 @@ footer h4 span{
     .offer-card-pictogram{
         width: 100px;
         height: 100px;
-        font-size: 50px;
-        padding: 25px;
+        font-size: 60px;
+        padding: 20px;
     }
 
     .offer-card-text h4{
@@ -633,6 +638,7 @@ footer h4 span{
 
     .articles{
         padding: 0 45px 50px;
+        margin-bottom: 50px;
     }
 
     .articles ul{
@@ -656,6 +662,70 @@ footer h4 span{
         padding: 7px 24px 10px 24px;
         font-size: 12px;
     }
+
+    .company-info{
+        padding: 0 60px 100px;
+    }
+
+    .company-info ul li{
+        list-style: none;
+    }
+
+    .company-info-list{
+        list-style: none;
+        counter-reset: counter;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 40px;
+    }
+
+    .company-info-list .custom-counter{
+        counter-increment: counter;
+    }
+
+    .company-info-list .custom-counter:before{
+        content: "0"counter(counter)".";
+        color: var(--lighter-green);
+        font-size: 2.1em;
+        font-weight: 800;
+        line-height: 40px;
+    }
+
+    .company-info-card h4{
+        color: #39464f;
+        font-size: 16px;
+        line-height: 70px;
+        border-bottom: 1px dashed #a0aab0;
+    }
+
+    .company-info-sublist{
+        font-size: 12px;
+        margin-top: 20px;
+        line-height: 30px;
+        color: #808b92;
+    }
+
+    .company-info-sublist li::before{
+        font-family: 'icomoon';
+        font-size: 12px;
+        margin-right: 12px;
+        color: var(--lighter-green);
+        content: "\e901";
+    }
+
+    .partners{
+        padding: 70px;
+    }
+
+    .partner-logo{
+        font-size: 3vw;
+    }
+
+    footer{
+        padding: 45px;
+    }
+
+
 
 }
 
