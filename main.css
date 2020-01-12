@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Source+Sans+Pro:400,700&display=swap&subset=latin-ext');
 
+@keyframes SlideIn{
+    0%{
+        left: -100%;
+        opacity: 0;
+    }
+
+    50%{left: 20%;
+        opacity: .5;
+    }
+
+    100%{
+        left: 0%;
+        opacity: 1;
+    }
+}
+
 :root{
     --darker-green: #3bb375;
     --lighter-green: #37b575;
@@ -106,10 +122,14 @@ header{
 }
 
 .hero-inner{
+    position: relative;
     padding: 5px;
     font-size: 28px;
     font-style: normal;
     color: #fff;
+    left: -100%;
+    opacity: 0;
+    animation: SlideIn .75s .5s cubic-bezier(.11,1.16,1,-0.15) forwards;
 }
 
 .hero-title{
@@ -234,18 +254,15 @@ font-family: 'Source Sans Pro', Arial;
 }
 
 .card-btn{
-    position: relative;
     font-family: 'Source Sans Pro', Arial;
     text-decoration: none;
     color: #39464f;
     font-weight: bold;
     font-size: 17px;
-    transition: all 1s;
 }
 
 .card-btn:hover{
     color: var(--darker-green);
-    left: 5px;
 }
 
 .articles{
@@ -286,7 +303,6 @@ font-family: 'Source Sans Pro', Arial;
 }
 
 .article-card-btn{
-    position: relative;
     border-radius: 5px;
     background-color: black;
     text-decoration: none;
@@ -294,13 +310,11 @@ font-family: 'Source Sans Pro', Arial;
     padding: 7px 24px 10px 24px;
     font-size: 12px;
     text-transform: uppercase;
-    transition: all 1s;
 }
 
 .article-card-btn:hover{
     background-color: #39464f;
     color: var(--lighter-green);
-    left: 5px;
 }
 
 footer{
@@ -556,10 +570,6 @@ footer h4 span{
     }
 
 }
-
-
-
-
 
 @media screen and (min-width: 980px){
     .show-desktop{
