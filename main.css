@@ -32,10 +32,16 @@ header{
 }
 
 .logo{
+    position: relative;
     height: 70px;
     float: left;
     margin-left: 10px;
     cursor: pointer;
+    transition: all 0.5s;
+}
+
+.logo:hover{
+    left: 3px;
 }
 
 .menu{
@@ -64,11 +70,17 @@ header{
 }
 
 .icon-menu-button{
+    position: relative;
     float: right;
     padding-top: 21px;
     padding-right: 10px;
     font-size: 24px;
     cursor: pointer;
+    transition: all 0.5s;
+}
+
+.icon-menu-button:hover{
+    right: 3px;
 }
 
 .menu-btn:checked ~ .show-desktop{
@@ -222,15 +234,18 @@ font-family: 'Source Sans Pro', Arial;
 }
 
 .card-btn{
+    position: relative;
     font-family: 'Source Sans Pro', Arial;
     text-decoration: none;
     color: #39464f;
     font-weight: bold;
     font-size: 17px;
+    transition: all 1s;
 }
 
 .card-btn:hover{
     color: var(--darker-green);
+    left: 5px;
 }
 
 .articles{
@@ -271,6 +286,7 @@ font-family: 'Source Sans Pro', Arial;
 }
 
 .article-card-btn{
+    position: relative;
     border-radius: 5px;
     background-color: black;
     text-decoration: none;
@@ -278,11 +294,13 @@ font-family: 'Source Sans Pro', Arial;
     padding: 7px 24px 10px 24px;
     font-size: 12px;
     text-transform: uppercase;
+    transition: all 1s;
 }
 
 .article-card-btn:hover{
     background-color: #39464f;
     color: var(--lighter-green);
+    left: 5px;
 }
 
 footer{
@@ -577,6 +595,7 @@ footer h4 span{
 
     .about{
         padding: 0 5rem;
+        transform: translateY(-33%);
     }
 
     .about ul{
