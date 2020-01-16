@@ -143,13 +143,13 @@ header{
 }
 
 .about{
-    transform: translateY(-17.4%);
+    transform: translateY(-17.3%);
 }
 
 .about-card{
     list-style: none;
     width: calc(100% - 80px);
-    height: 45vh;
+    height: 340px;
     margin: 20px auto 40px;
     background-color: var(--darker-green);
 }
@@ -381,7 +381,7 @@ footer h4 span{
     
     .about-card{
         width: calc(100% - 100px);
-        height: 60vh;
+        height: 400px;
     }
 
     .about-card-text h4{
@@ -453,7 +453,7 @@ footer h4 span{
     }
 
     .about{
-        transform: translateY(-28%);
+        transform: translateY(-183px);
         margin: 0 50px 0 50px;
         height: 100vh;
     }
@@ -467,7 +467,7 @@ footer h4 span{
 
     .about-card{
         width: 100%;
-        height: 100%;
+        height: 326px;
     }
 
     .about-card-text h4{
@@ -605,12 +605,24 @@ footer h4 span{
 
     .about{
         padding: 0 5rem;
-        transform: translateY(-33%);
+        transform: translateY(-195px);
+    }
+
+    .about-card{
+        height: 350px;
+    }
+
+    .about-card-text{
+        font-size: 1.2vw;
     }
 
     .about ul{
         display: flex;
         justify-content: space-between;
+    }
+
+    .offer{
+        margin-top: -420px;
     }
 
     .offer-title{
@@ -652,6 +664,11 @@ footer h4 span{
     .articles{
         padding: 0 45px 50px;
         margin-bottom: 50px;
+    }
+
+    .articles-title{
+        text-align: start;
+        margin-left: 24px;
     }
 
     .articles ul{
