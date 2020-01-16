@@ -592,7 +592,8 @@ footer h4 span{
         grid-template-columns: repeat(6, 1fr);
         clear: none;
         grid-gap: 1px;
-        padding-left: 270px;
+        float: right;
+        padding-right: 60px;
     }
     
     .menu li a{
@@ -625,7 +626,7 @@ footer h4 span{
     }
 
     .offer{
-        margin-top: -400px;
+        margin-top: -42%;
     }
 
     .offer-title{
