@@ -496,7 +496,7 @@ footer h4 span{
 
     .offer{
         box-sizing: border-box;
-        margin-top: 1px;
+        margin-top: -40vh;
         padding: 0 50px 0 50px;
     }
 
@@ -591,7 +591,6 @@ footer h4 span{
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         clear: none;
-        grid-gap: 1px;
         float: right;
         padding-right: 60px;
     }
@@ -607,17 +606,17 @@ footer h4 span{
 
     .about{
         padding: 0 5rem;
-        transform: translateY(-195px);
+        transform: translateY(-175px);
     }
 
     .about-card{
         box-sizing: border-box;
-        height: 350px;
+        height: 310px;
         width: calc((100% / 3) - 20px);
     }
 
     .about-card-text{
-        font-size: 1.2vw;
+        font-size: 1.1vw;
     }
 
     .about ul{
@@ -626,7 +625,7 @@ footer h4 span{
     }
 
     .offer{
-        margin-top: -42%;
+        margin-top: -77vh;
     }
 
     .offer-title{
@@ -764,11 +763,134 @@ footer h4 span{
     footer{
         padding: 45px;
     }
-
-
-
 }
 
 @media screen and (min-width: 1280px){
+    .logo{
+        height: 120px;
+        padding-left: 50px;
+    }
 
+    .menu{
+        margin-right: 80px;
+        width: 700px;
+    }
+
+    .menu li a{
+        font-size: 1em;
+        padding: 55px 0 15px;
+    }
+
+    .hero-title{
+        font-size: 2.5em;
+        line-height: 1.2em;
+    }
+
+    .hero-subtitle{
+        font-size: 1.6em;
+        line-height: 1em;
+    }
+
+    .about{
+        margin: 0 9vw 0 9vw;
+        transform: translateY(-220px);
+    }
+
+    .about-card{
+        height: 400px;
+    }
+
+    .about-card-text{
+        padding: 40px;
+        font-size: .9vw;
+    }
+
+    .about-card-text h4{
+        font-size: 1.5vw;
+    }
+
+    .offer{
+        padding: 50px 10vw 50px 10vw;
+    }
+
+    .offer-title{
+        font-size: 3.5em;
+    }
+
+    .offer-subtitle{
+        font-size: 2.2em;
+    }
+
+    .offer-card-pictogram{
+        width: 150px;
+        height: 150px;
+        font-size: 95px;
+        padding: 25px;
+    }
+
+    .offer-card-text h4{
+        font-size: 1.87em;
+    }
+
+    .offer-card-text{
+        font-size: 1em;
+    }
+
+    .card-btn{
+        font-size: 1.2em;
+    }
+
+    .articles{
+        padding: 50px 9vw 50px;
+    }
+
+    .article-card-text{
+        font-size: 1.1em;
+    }
+
+    .article-card-btn{
+        margin-top: 5px;
+        font-size: .8em;
+        padding: 10px 30px 15px;
+    }
+
+    .company-info{
+        padding: 0 10vw 80px;
+    }
+
+    .company-info-list .custom-counter:before{
+        font-size: 3.2em;
+    }
+
+    .company-info-card h4{
+        font-size: 1.3em;
+    }
+
+    .company-info-sublist{
+        font-size: .9em;
+    }
+
+    .company-info .card-btn{
+        bottom: 7%;
+    }
+
+    .partners{
+        padding: 70px 12vw 70px;
+    }
+
+    .social-pictogram{
+        font-size: 1.3em;
+    }
+    
+    footer h3{
+        font-size: 3em;
+    }
+
+    footer h4{
+        font-size: 1.3em;
+    }
+
+    footer h4 span{
+        font-size: .6em;
+    }
 }
